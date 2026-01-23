@@ -1,0 +1,44 @@
+<!-- 1) კომენტარის სახით ახსენი რა არის video და audio ფორმატები
+video - ვიდეო რომელსაც ეკრანზე უყურებ და რაღაც მოვლენას ხედავ
+audio - ადიო რომელსაც უსმენ მაგრამ ვერ უყურებ
+2)საიტზე ჩააშენეთ თქვენი საყვარელი ფილმის თრეილერის ვიდეო (ვიდეოს უნდა ქონდეს კონტროლები)
+
+3)გამოიტანეთ რაიმე ვიდეო რომელშიც 3 source არის ჩაშენებული და ვიდეო ავტომატურად მეორდება
+
+4) საიტზე ჩააშენეთ რაიმე მუსიკის audio რომელიც თავიდან უხმო იქნება
+
+5)შექმენით საიტი სადაც გექნება სამი რენდომ ვიდეო, პირველი ვიდეო უნდა იყოს კონტროლების გარეშე, მეორე ვიდეო  კონტროლებით და ავტომატურად უნდა მეორდებოდეს, მესამე ვიდეო კი უნდა იყოს ასევე კონტროლებით, თავიდან უხმო იყოს და ავტომატურად ირთვებოდეს -->
+<!-- 2 -->
+<video controls>
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4" 
+    type="video/mp4">
+</video>
+
+<!-- 3 -->
+<video controls loop>
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4" 
+    type="video/mp4">
+
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4"
+    type="video/ogg">
+
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4"
+    type="video/WebM">
+</video>
+<!-- 4 -->
+<audio controls muted>
+    <source src="./mp3-y2mate.com_256kbps-the-troupe-master-grimm-nightmare-king-hollow-knight-the-grimm-troupe-dlc-ost (1).mp3">
+</audio>
+<!-- 5 -->
+ <video>
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4" 
+    type="video/mp4">
+</video>
+<video controls loop>
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4" 
+    type="video/mp4">
+</video>
+<video controls muted autoplay>
+    <source src="./mp3-y2mate.com_480p-i-flipped-100-rocks-at-night-heres-what-i-found.mp4" 
+    type="video/mp4">
+</video>
