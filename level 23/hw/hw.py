@@ -4,11 +4,8 @@ delete = int_l.pop(-1)
 add = int_l.append(7)
 print(int_l)
 # 2)მომხმარებელს შემოატანინე მისი გვარი და გაარკვიე შეიცავს თუ არა მისი გვარი სტრინგ "shvili", ამის შესაბამისად დაპრინტე True ან False
-surname = input("Please enter your surname: ")
-if surname.find("shvili"):
-    print(True)
-else:
-    print(False)
+surname = input("Enter your surname: ")
+print(surname[-6:] == "shvili")
     
 # 3)მომხმარებელს შემოატანინე რაიმე ინდექსი 1-5 და 10 ელემენტიან სიიდან ამოიღე ამ ინდექსზე მდგომი ელემენტი და სიის დასაწყისში ჩაამატე სტრინგი "change"
 list_p = [10,5,60,103,500,605,403,809,300,1000]

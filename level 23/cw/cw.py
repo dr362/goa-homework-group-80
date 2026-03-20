@@ -7,7 +7,8 @@ name = input("Please enter your name: ")
 print(name.upper())
 # 3)შექმენით სტრინგების სია და შეინახეთ 5 სტრინგი, დაპრინტეთ ამ სიაში არსებული ყველა სტრინგი ისე რომ პირველი ასო იყოს დიდი, დანარჩენი კი პატარები
 list_ofnames = ["hi","hello","bye","goodbye","how are you"]
-print(list_ofnames.capitalize())
+for i in list_ofnames:
+    print(i.capitalize)
 # 4)მომხმარებელს შემოატანინე თავისი გვარი და გაარკვიე არის თუ არა ამ გვარში ასო ტ, თუ არის დაპრინტე True, სხვა შემთხვევაში False
 surname = input("Please enter your surname: ")
 if surname.find("T") == True:
