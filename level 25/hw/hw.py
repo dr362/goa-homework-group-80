@@ -22,8 +22,4 @@ def even_odd_list(l):
 even_odd_list([5,2,6,7,0])
 
 # 5) დაწერე ფუნქცია რომელიც იღებს სიტყვების სიას და აბრუნებს ყველაზე გრძელ სიტყვას.
-def longest_in_list(lisT):
-    for i in lisT:
-        if len(i) > i:
-            print(i)
-longest_in_list(["Hi", "Hello", "bye","Goodbye"])
+# ესეც ვერ გავიგე
