@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #oh_no {
+            color:blue;
+            background-color: red;
+        }
+        #sup {
+            text-align:center
+        }
+    </style>
+</head>
+<body>
+    <!-- 1)კომენტარის სახით ახსენით რა css-ის გამოყენების ტექნიკები არსებობს (ასევე მათ შორის სხვაობა)
+    ჩვენ ვისწავლეთ inline, internal, external ექსტერნალი ცალკე ფაილშია ინტერნალი სტილის თეგში იწერება ხოლო ინლაინი ცალკე ხაზზე
+    2)კომენტარის სახით ახსენით internal და external css კოდის ანატომია (css rule / declaration...)
+    internal, external - declaration = კუთვნილებები selector = გამოძახება თეგის სტილისთვის
+    3)კომენტარის სახით ახსენით რატომ არის კარგი პრაქტიკა რომ გამოვიყენოთ external css
+    დიდი დავალებებისთვის დიდ ადგილს არ იკავებს და საერთოდაც არ იკავებს ადგილს
+    4)შექმენით 5 პარაგრაფი და ხუთივე გახადეთ წითელი, განალაგეთ ცენტრში, ფონის ფერი შეუცვალეთ შავად და ტექსტის ზომა გაზარდეთ 30 პიქსელამდე (inline css-ის გამოყენებით)
+
+    5)HTML ფაილში: დაამატე სათაური (h1) დაამატე ორი პარაგრაფი (p) / გამოიყენე Internal CSS (style თეგის გამოყენებით head-ში) და შეცვალე:
+    • პარაგრაფის ტექსტის ფერი (color)
+    • პარაგრაფის ფონური ფერი (background-color)
+    • heading-ის ტექსტის განლაგება (text-align)
+
+    6)ვებსაიტზე დაამატე 5 პარაგრაფი, 2 bold თეგი, 1 image / (external cs-ის გამოყენებით) პირველი პარაგრაფის ფერი გახადე ლურჯი, ფონის ფერი ნაცრისფერი, ტექსტის ზომა 30px, დანარჩენი 4 პარაგრაფი გასტილე ისე როგორც გინდა / 2 bold თეგი გასტილე პირველი პარაგრაფის მსგავსად ხოლო ფოტო სიგანეში გახადე 300px / სიმაღლეში 200px -->
+    <!-- 4 -->
+    <p style="color:red; text-align: center;background-color: black;font-size:30px;">hi</p>
+    <p style="color:red; text-align: center;background-color: black;font-size:30px;">hi</p>
+    <p style="color:red; text-align: center;background-color: black;font-size:30px;">hi</p>
+    <p style="color:red; text-align: center;background-color: black;font-size:30px;">hi</p>
+    <p style="color:red; text-align: center;background-color: black;font-size:30px;">hi</p>
+
+    <!-- 5 -->
+    <h1 id="sup">HW</h1>
+    <div id="oh_no">
+        <p>oh no</p>
+        <p>im not in danger</p>
+    </div>
+    <!-- 6 -->
+    <p id="blue">bye</p>
+    <div id="red">
+        <p>bye</p>
+        <p>bye</p>
+        <p>bye</p>
+        <p>bye</p>
+        <p>bye</p>
+    </div>
+
+    <b>hello</b>
+    <b>hello</b>
+    <img src="data:image/webp;base64,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" alt="sololearn">
+</body>
+</html>
