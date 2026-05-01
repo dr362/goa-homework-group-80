@@ -1,0 +1,15 @@
+#search {
+    display: flexbox;background-color: azure;
+}
+div {
+    border:3px black solid
+}
+button {
+    background-color: green;height:30px;width:50px
+}
+a {
+    text-decoration: none;color: black;font-size:18px
+}
+img {
+    border:3px solid blue
+}
