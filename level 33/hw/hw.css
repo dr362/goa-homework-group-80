@@ -1,0 +1,15 @@
+#id {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hover:hover {
+    background-color: red;
+}
+div {
+    width: 100px;height:100px; border:solid black 3px
+}
+div:hover {
+    width:300px;height:300px;
+}
+a:link {
+    color:green;
+}

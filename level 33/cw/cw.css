@@ -1,0 +1,13 @@
+/* font-family: "Oswald", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* font-family: "Bree Serif", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+#hi {
+    font-weight: 600;
+}
+#lorem {
+    font-family:"Oswald", sans-serif; ;
+}
+h1 {
+    font-family:"Bree Serif", serif; font-weight: 500;
+}
