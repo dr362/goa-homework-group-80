@@ -1,0 +1,9 @@
+.lu {
+    list-style-type: circle;
+}
+#bull {
+    list-style-type: square inside;
+}
+ol {
+    list-style-type: upper-roman; border: 3px solid black;
+}

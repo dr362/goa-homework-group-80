@@ -1,0 +1,15 @@
+#brr {
+    background-color: greenyellow;
+}
+#table {
+    border-color: green;border-collapse: collapse;font-size: 10px;
+}
+#brrr {
+    background-color:cornflowerblue;color:white
+}
+.Table {
+    border-color:gray;border-collapse: collapse;font-size: 8px;
+}
+.tr:nth-child(even) {
+    background-color: gainsboro;
+}
