@@ -1,0 +1,44 @@
+.child {
+    width:100px;
+    height:100px;
+    text-align:center;
+    font-weight: 900;
+}
+.child1 {
+    background-color: yellow;
+    font-size:30px;
+}
+.child2 {
+    background-color: gray;
+    font-size: 25px;
+}
+.child3 {
+    background-color: brown;
+    font-size:20px;
+}
+#parent {
+    width:50%;
+    height:500px;
+    display:flex;
+    align-items: baseline;
+}
+.childa {
+    width:100px;
+    height:100px;
+    text-align:center;
+    font-weight: 900;
+    background-color: red;
+}
+#parenta {
+    display:flex;
+    justify-content:center;
+}
+.childa1 {
+    align-items:start ;
+}
+.childa2 {
+    align-items:center;
+}
+.childa3 {
+    align-items:end;
+}
