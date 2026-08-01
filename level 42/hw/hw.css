@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    background-color: hsl(0, 0%, 8%);
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    height:1000px
+}
+div {
+    width:18%;
+    height:700px;
+    background-color:hsl(0, 0%, 12%);
+    border-radius:20px;
+    justify-content: center;
+}
+img {
+    border-radius:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top:30px;
+    width:130px
+}
+#J {
+    font-size: 2.5rem; text-align: center;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom:10px
+}
+#L {
+    font-size: 1.25rem; text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color:hsl(75, 94%, 57%);
+}
+#F {
+    color:grey;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem; text-align: center;
+    margin-top:30px;
+}
+.Button {
+    background-color: hsl(0, 0%, 20%);
+    height:50px;
+    width:330px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    border:none;
+    border-radius:15px;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem; text-align: center;
+    font-style:bold;
+}
+.Button:hover {
+    background-color:hsl(75, 94%, 57%);
+    color:black
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cw</title>
+    <link rel="stylesheet" href="./cw.css">
+</head>
+<body>
+    <!-- 1.თქვენი სიტყვებით ახსენით რას აკეთებს და როგორ მუშაობს flex-shrink,flex-grow,align-self და order.
+    flex-shrink - ეკრანის დაპატარავებისას რა ელემენტსაც მიუთითებ flex-shrink-სა და ციფრს ციფრის მიხედვით იცვლება დაპატარავების სისწრაფე მაგალითად ციფრი 2 დააპატარავებს ელემენტს-2-ჯერ სწრაფად ვიდრე დანარჩენები
+    flex-grow -რომელ ელემენტსაც მიუთითებ flex-grow-ს ის ელემენტი გაიზრდება ზუსტად იქამდე სანამ მთლიან ადგილს არ დაიკავებს და სხვა ელემენტებისთვისაც საწყის ზომას შეუნარჩუნებს
+    align-self - იგივე align-items მაგრამ კონკრეტულად 1 ელემენტზე(თავისთავზე)
+    order - ელემენტების ადგილმდებარეობას ცვლის ინდეხებით
+2.შექმენი ერთი div-ი და გაუწერე მას display flex-ი. მასში მოათავსე სამი div-ი,მიანიჭე მათ background ფერები და გამოიყენე მათზე flex-grow. პირველ div-ს გაუწერე flex-grow: 1,მეორეს flex-grow: 2,ხოლო მესამეს flex-grow:3. ახსენი როგორ განაწილდა სივრცე ამ სამ div-ზე.
+ციფრის მიხედვით განაწილდნენ ანუ რაც უფრო დიდი რიცხვი იყო მით უფრო გაიძარდა დივი
+3.შექმენი div-ი რომელსაც გუაწერ display flex-ს და 300px სიმაღლეს. მასში ჩასვი 4 div-ი და გამოიყენე align-self იმისთვის რომ პირველი div-ი იყოს ზევით,მეორე შუაში,მესამე ქვევით,ხოლო მეოთხე შუაში.
+
+4.შექმენი div-ი რომელსაც გაუწერ display flex-ს. მასში მოათავსე 5 div-ი რომლებშიც ჩაწერ მათი ადგილის შესაბამის რიცხვს.order-ის გამოყენებით კი დაალაგე ისინი შემდეგი თანმიმდევრობით:5-3-1-4-2 -->
+
+<div class="parent" border="1">
+    <div class="child c1">1</div>
+    <div class="child c2">2</div>
+    <div class="child c3">3</div>
+</div>
+<div border="3" class="parent2">
+    <div class="child ch1">1</div>
+    <div class="child ch2">2</div>
+    <div class="child ch3">3</div>
+    <div class="child ch4">4</div>
+</div>
+</body>
+</html>

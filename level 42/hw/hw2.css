@@ -1,0 +1,19 @@
+#parent {
+    display:flex;
+    width:500px;
+    height:500px
+}
+.child {
+    width:250px;
+    height:250px;
+    background-color: red;
+}
+.c1 {
+    flex-shrink: 1;
+}
+.c2 {
+    flex-shrink:0;
+}
+.c3 {
+    flex-shrink: 2;
+}

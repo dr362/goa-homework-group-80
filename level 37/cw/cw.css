@@ -1,0 +1,15 @@
+input[type="password"] {
+    border-color:red;border-radius: 5px;
+}
+input[type="email"] {
+    border-color:green;border-radius:3px
+}
+input[type="text"] {
+    border-color: blue;border-radius:9px
+}
+#hello {
+    border-radius: 51% 49% 100% 0% / 100% 100% 0% 0% ;height: 100px;width:100px;
+}
+#hi,td,th {
+    border-collapse: collapse;border:solid
+}
