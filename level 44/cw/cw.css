@@ -1,0 +1,39 @@
+#test {
+    position:relative;
+    top:30px;
+    left:50px;
+    background-color: red;
+    height:300px;
+    width:25%
+}
+#Test2 {
+    height:150px;
+    width:200px;
+    position: relative;
+    background-color: red;
+}
+#ct1 {
+    position:absolute;
+    height:75px;
+    width:75px;
+    background-color:yellow;
+    left:125px;
+}
+body {
+    height:300vh;
+}
+#T1 {
+    height:100px;
+    width:100px;
+    position:fixed;
+    background-color: blue;
+    top:0;
+    left:0;
+}
+#T2 {
+    height:200px;
+    width:200px;
+    background-color: brown;
+    top:0;
+    position:sticky;
+}

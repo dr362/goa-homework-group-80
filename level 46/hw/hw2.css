@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReOwdW0oo8DNigfJrN8eaSty9qOvDRA2YcEJr4bYHpJg&s=10);
+    background-repeat: repeat-x;
+    background-color: black;
+}
+h1 {
+    color:white;
+    position:relative;
+    top:450px
+}
+.parent {
+    width:1292px;
+    height:302px;
+    display: flex;
+}
+img {
+    width:470px;
+    height:302px;
+}
+p {
+    color:white;
+    font-size: xx-large;
+}

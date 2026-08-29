@@ -1,0 +1,25 @@
+#Test {
+    height:200px;
+    width:200px;
+    position: relative;
+    background-color: red;
+    border:solid black 3px;
+    border-radius:0;
+    
+}
+#ct {
+    position:absolute;
+    height:100px;
+    width:75px;
+    background-color:blue;
+    left:125px;
+}
+body {
+    height:300vh;
+}
+#bu {
+    position:fixed;
+    right:0;
+    top:0;
+    
+}

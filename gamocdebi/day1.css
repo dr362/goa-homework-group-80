@@ -1,0 +1,54 @@
+#Head1 {
+    text-align: center;
+    color:green;
+    display:block;
+}
+div {
+    display:inline-block;
+}
+.parrot1 {
+    height:500px;
+    width:300px;
+    background-color: greenyellow;
+}
+body {
+    background-color: black;
+}
+img {
+    height:300px;
+    width:300px;
+}
+.Parrot2 {
+    display:inline-block;
+    height:500px;
+    width:300px;
+    background-color:grey;
+}
+.Parrot3 {
+    display:inline-block;
+    height:500px;
+    width:300px;
+    background-color:yellow;
+}
+.Parrot4 {
+    display:inline-block;
+    height:500px;
+    width:300px;
+    background-color:Green;
+}
+.Parrot5 {
+    display:inline-block;
+    height:500px;
+    width:300px;
+    background-color:darkgreen;
+    position:relative;
+    top:19px;
+    
+}
+.bu {
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
