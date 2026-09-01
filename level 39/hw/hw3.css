@@ -1,0 +1,25 @@
+.bird {
+    border: 2px solid black;
+    width:350px;
+    height:370px;
+    background-color: beige;
+}
+body {
+    display:flex;
+    flex-wrap: wrap;
+}
+button {
+    width: 70px;
+    font-weight: 900;
+    background-color: green;
+}
+button:active {
+    background-color: red;
+    width:65px;
+}
+a {
+    text-decoration: none;color:black
+}
+img {
+    height:250px;justify-content: center;
+}
