@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    background-color: hsl(216, 50%, 16%);
+    width:300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.equili {
+    border-radius: 10px;
+    width:260px;
+    height:240px;
+    margin-top:20px
+}
+.equ {
+    font-family: "Outfit", sans-serif;
+    color:white;
+    margin-left:20px;
+    font-weight: normal;
+}
+.our {
+    font-family: "Outfit", sans-serif;
+    margin-left:20px;
+    color:hsl(215, 51%, 70%);
+    font-weight: 200;
+}
+.eth {
+    width:10px;
+    display: inline-block;
+}
+.hte {
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    color:hsl(178, 100%, 50%);
+    margin-left: 5px;
+}
+.child {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    width:120px
+}
+.parentchild {
+    display: flex;
+    justify-content:space-evenly;
+}
+.clock {
+    display:inline-block;
+    width:20px;
+    margin-left:30px;
+}
+.kcolc {
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    margin-left: 5px;
+    font-size:13px;
+    color:hsl(215, 51%, 70%);
+}
+.child2 {
+    border-top:3px solid hsl(215, 32%, 27%);
+    width:270px;
+    display: flex;
+    justify-content: start;
+}
+.avat {
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-top:15px;
+    border:white 2px solid;
+    border-radius: 100%;
+}
+.tava {
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    margin-top:20px;
+    margin-left:5px;
+    color:hsl(215, 51%, 70%);
+}
+b {
+    color:white;
+    font-weight: normal;
+}

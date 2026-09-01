@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.head {
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    color:hsl(212, 6%, 44%);
+    margin-bottom:0px;
+}
+.head2 {
+    font-family: "Poppins", sans-serif;
+    color:hsl(234, 12%, 34%);
+    margin-top:4px;
+    margin-bottom:4px
+}
+.p {
+    font-family: "Poppins", sans-serif;
+    color:hsl(234, 12%, 34%);
+    font-size: smaller;
+}
+.child1 {
+    height:250px;
+    width:300px;
+    box-shadow: 2px 13px 38px -10px rgba(87,96,152,0.78);
+    -webkit-box-shadow: 2px 13px 38px -10px rgba(87,96,152,0.78);
+    -moz-box-shadow: 2px 13px 38px -10px rgba(87,96,152,0.78);
+    display: inline-block;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    border-top:3px solid hsl(180, 62%, 55%);
+    position:absolute;
+    top:350px;
+    left:200px
+}
+.childparent {
+    display: flex;
+    align-items:center;
+    height:600px;
+    width:300px;
+    justify-content: center;
+}
+.h {
+    font-family: "Poppins", sans-serif;
+    color:hsl(234, 12%, 34%);
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+.hp {
+    font-family: "Poppins", sans-serif;
+    color:hsl(212, 6%, 44%);
+    margin-top:5px
+}
+.child1 img {
+    width:50px;
+    position:relative;
+    left:240px;
+    top:60px
+}
