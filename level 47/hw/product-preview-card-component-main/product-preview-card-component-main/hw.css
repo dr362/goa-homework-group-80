@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/* font-family: "Fraunces", serif; */
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:95vh;
+}
+.main_card1 {
+    height:400px;
+    width:300px;
+    display: inline-block;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+}
+.main_card1 img {
+    width:300px;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.main_card2 {
+    height:400px;
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;  
+    
+}
+.main_div_of_the_mains {
+    height:400px;
+    width:600px;
+    display:flex;
+}
+.pr {
+    gap:40px;
+    font-family: "Montserrat", sans-serif;
+    color:hsl(228, 12%, 48%);
+    
+}
+.prr {
+    font-family: "Fraunces", serif;
+    color:hsl(212, 21%, 14%);
+}
+.floral {
+    color:hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+}
+.dis {
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+.prrp {
+    color:hsl(228, 12%, 48%);
+    font-size:small;
+    text-decoration:line-through hsl(228, 12%, 48%);
+}
+.add {
+    font-family: "Montserrat", sans-serif;
+    color:white;
+    font-weight: bold; 
+}
+.icon {
+    height:20px
+}
+.pay {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border:none;
+    border-radius:10px;
+    width:200px
+}
+.pay:hover {
+    background-color: hsl(158, 42%, 18%);
+    border:none;
+}
