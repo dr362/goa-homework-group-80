@@ -1,0 +1,24 @@
+.parent {
+    display:grid;
+    height:100px;
+    width:500px;
+    border:none;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 50px 50px ;
+}
+.child {
+    border:green solid 5px
+}
+.child2 {
+    grid-column: span 3;
+}
+.child3 {
+    grid-column: span 3;
+}
+.child5 {
+    grid-column: span 3;
+}
+.child6 {
+    background-color: green;
+    grid-column: span 3;
+}

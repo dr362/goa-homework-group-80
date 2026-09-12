@@ -1,0 +1,17 @@
+.parent {
+    display:grid;
+    height:100px;
+    width:500px;
+    border:none;
+    grid-template-columns:100px 100px 100px ;
+    grid-template-rows: 50px 50px ;
+    gap:20px;
+    
+}
+.child {
+    background-color: grey;
+    border-radius: 10px;
+    width:100px;
+    height:100px;
+    color:white;
+}
