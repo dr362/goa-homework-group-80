@@ -1,0 +1,17 @@
+body {
+    height:100vh;
+}
+img {
+    width:100%;
+    height:100%;
+}
+.parent {
+    display:grid;
+    height:1750px;
+    width:700px;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 350px 350px ;
+}
+.child1 {
+    grid-area:span 2 / span 2  ;
+}

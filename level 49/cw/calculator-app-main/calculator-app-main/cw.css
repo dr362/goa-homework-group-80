@@ -80,8 +80,8 @@ body {
     border:none;
     border-bottom:hsl(6, 70%, 34%) 3px solid;
     border-radius:5px;
-    color:white
-    
+    color:white;
+    font-family:"League Spartan", sans-serif;
 }
 .num1:hover {
     background-color: white;
