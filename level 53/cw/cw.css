@@ -1,0 +1,38 @@
+.no {
+    background-color: black;
+    width: 100px;
+    height:100px;
+    transition: 2s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.uu:active {
+    transform: scale(200%, 150%);
+}
+.aa:active {
+    transform: scale(40%, 50%);
+}
+.oo:active {
+    transform: scale(110%, 110%);
+}
+
+.eea:active {
+    transform: translate(100px, -50px);
+}
+.ea:active {
+    transform: rotate(45deg);
+}
+.oe:active {
+    transform: rotate(90deg);
+}
+.ua:active {
+    transform: rotate(-45deg);
+}
+.eu:active {
+    transform-origin: bottom left;
+    transform: scale(1.3) rotate(20deg);
+}
+.ue:active {
+    transform: scale(1.2) translate(40px);
+    transform: 0.6 ease;
+}

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* font-family: "Space Grotesk", sans-serif; */
+
+body {
+    background-color: #050814;
+    gap:10px;
+    height:100%;
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    height:680px;
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px 200px 200px 200px; 
+    grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+    grid-template-areas: 
+    "c1  c1  c1  c1  c1  c1  c1"
+    "c2  c3  c3  c4   .   .   ."
+    "c2  c3  c3  c4   .   .   ."
+    "c2  c5  c6  c4   .   .   ."
+    "c2  c7  c8  c4   .   .   ."
+    "c2  c9  c9  c9   .   .   ."
+    "c2 c11 c12 c13   .   .   ."
+    "c2 c14 c15 c15   .   .   ."
+    ". c14 c15 c15   .   .   ."
+    "c16 c16 c16 c16  .   .   ."
+    ;
+}
+.nav {
+    background-color: #0b122c;
+    width:1536px;
+    height:60px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 100px 200px 200px;
+    grid-template-rows: 15px 15px 15px 15px;
+    grid-area: c1;
+}
+.uuaa {
+    display: inline-block;
+    margin-bottom: 10px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: start;
+    
+}
+.Hub {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    grid-row: 2/4;
+    grid-column: 2/4;
+    margin-left: 32px;
+    align-self: center;
+}
+.ooee {
+    color:blueviolet;
+}
+.btt {
+    grid-row: 2 / 4;
+    grid-column: 3/4;
+    background-color:blueviolet;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width:100px;
+    align-items: center;
+    justify-self: end;
+}
+.btt h3 {
+    margin-top: 6px;
+}
+.nav2 {
+    grid-row: 2 / 4;
+    grid-column: 4/5;
+    margin-left: 20px;
+    color:white;
+    width:100px;
+    align-items: center;
+    justify-self: center;
+    margin-top: 6px;
+}
+.nav3 {
+    grid-row: 2 / 4;
+    grid-column: 5/6;
+    margin-left: 20px;
+    color:white;
+    width:100px;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 17px;
+}
+.nav4 {
+    grid-row: 2 / 4;
+    grid-column: 6/7;
+    margin-left: 50px;
+    color:white;
+    width:100px;
+    align-items: center;
+    margin-top: 6px;
+    justify-self: end;
+}
+.searchbox {
+    width:300px;
+    height:33px;
+    grid-row: 2 / 4;
+    grid-column: 7/8;
+    margin-left: 50px;
+    color:white;
+    align-items: center;
+    margin-top: 6px;
+    background-color:#0b122c;
+    border:3px solid rgba(100, 148, 237, 0.337);
+    align-self: center;
+    border-radius: 7px;
+    display: flex;
+}
+.searchbox p {
+    display: inline;
+    font-size: 15px;
+    color:grey;
+}
+.oeeee {
+    width:30px;
+    display: inline-block;
+}
+.parentside {
+    grid-area: c2;
+    margin-left:20px ;
+    background-color: #0b122c;
+    border: 1px solid #141b31; 
+    border-radius: 5px;
+}
+.browse {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.allgames {
+    background: linear-gradient(90deg, #321a7c 0%, #171646 45%, #0b1125 100%);
+    border: 1px solid #432b9b; 
+    width:130px;
+    height:10px;
+    margin-left:10px;
+    border-radius: 8px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.windows {
+    width: 30px;
+}
+.games {
+    margin: 0;
+    color:white;
+    font-size: 11px;
+}
+.Action {
+    margin-left: 30px;
+}
+.iiaa {
+    color:white
+}
+.Adventure {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 30px;
+}
+.adventure {
+    width:20px
+}
+.RPG {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+
+.RPGG {
+  width: 20px;
+}
+
+.Racing {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.Racingg {
+    width: 20px;
+}
+.sports {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.sportss {
+    width:20px;
+}
+.Strategy {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.Strategyy {
+    width:20px;
+}
+.uuuaaa {
+    margin-bottom: 5px;
+}
+.Simulation {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.Simulationn {
+    width:20px;
+}
+.Puzzle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+  border-bottom:1px solid #141b31;
+  padding-bottom: 10px;
+}
+.Puzzlee {
+    width:20px
+}
+.Wish {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.Wishh {
+    width:20px;
+}
+.Recent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.Recentt {
+    width:20px;
+}
+.r {
+    font-size: 13px;
+}
+.Settings {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+.pro {
+    background: linear-gradient(90deg, #321a7c 0%, #171646 45%, #0b1125 100%);
+    border: 1px solid #432b9b; 
+    width:130px;
+    height:120px;
+    margin-left:10px;
+    border-radius: 8px;
+    padding: 10px 14px;
+    gap: 12px;
+}
+.crown {
+    width:30px
+}
+.Go {
+    margin-top: 0;
+    color:#432b9b;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.Get {
+    font-size: 10px;
+    color:grey;
+    margin:0;
+}
+.Upgrade {
+    background-color:blueviolet;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width:130px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
