@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/* font-family: "Fraunces", serif; */
+
+
+
+body {
+    background-color: hsl(30, 24%, 93%);
+    height: 100vh;
+    margin: 0;
+}
+.Sidebar {
+    height: 679px;
+    width:200px;
+    border: 1px solid black;
+    margin: 0;
+}
+.Masion {
+    display: inline-block;
+    margin: 0;
+}

@@ -6,22 +6,26 @@ body {
     gap:10px;
     height:100%;
     margin: 0;
+    width:1250px;
     font-family: "Space Grotesk", sans-serif;
-    height:680px;
+    height:145vh;
     display: grid;
-    grid-template-columns:200px 200px 200px 200px 200px 200px 200px; 
-    grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+    grid-template-columns:200px 200px 200px 200px 200px 200px 250px; 
+    grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
     grid-template-areas: 
     "c1  c1  c1  c1  c1  c1  c1"
-    "c2  c3  c3  c4   .   .   ."
-    "c2  c3  c3  c4   .   .   ."
-    "c2  c5  c6  c4   .   .   ."
-    "c2  c7  c8  c4   .   .   ."
-    "c2  c9  c9  c9   .   .   ."
-    "c2 c11 c12 c13   .   .   ."
-    "c2 c14 c15 c15   .   .   ."
-    ". c14 c15 c15   .   .   ."
-    "c16 c16 c16 c16  .   .   ."
+    "c2  c3  c3  c3  c3  c3  c9"
+    "c2  c3  c3  c3  c3  c3  c9"
+    "c2  c3  c3  c3  c3  c3  c9"
+    "c2  c3  c3  c3  c3  c3  c9"
+    "c2  c3  c3  c3  c3  c3  c9"
+    "c2  c4  c5  c6  c7  c8  c9"
+    "c2  c10 c10 c10 c10 c10 c11"
+    "c2  c10 c10 c10 c10 c10 c11"
+    "c2  c10 c10 c10 c10 c10 c11"
+    "c2  c10 c10 c10 c10 c10 c11"
+    "c2  c10 c10 c10 c10 c10 c11"
+    "c12 c12 c12 c12 c12 c12 c12"
     ;
 }
 .nav {
@@ -32,6 +36,7 @@ body {
     grid-template-columns: 200px 200px 200px 200px 200px 100px 200px 200px;
     grid-template-rows: 15px 15px 15px 15px;
     grid-area: c1;
+    position: fixed;
 }
 .uuaa {
     display: inline-block;
@@ -127,6 +132,8 @@ body {
     background-color: #0b122c;
     border: 1px solid #141b31; 
     border-radius: 5px;
+    
+    
 }
 .browse {
     color: #64748b;
@@ -150,7 +157,7 @@ body {
 }
 .games {
     margin: 0;
-    color:white;
+    color:rgb(205, 205, 205);
     font-size: 11px;
 }
 .Action {
@@ -255,16 +262,20 @@ body {
   align-items: center;
   gap: 12px;
   margin-left: 30px;
+  border-bottom: #64748b 1px solid;
+  width:120px;
+  padding-bottom: 50px;
 }
 .pro {
     background: linear-gradient(90deg, #321a7c 0%, #171646 45%, #0b1125 100%);
     border: 1px solid #432b9b; 
     width:130px;
-    height:120px;
+    height:160px;
     margin-left:10px;
     border-radius: 8px;
     padding: 10px 14px;
     gap: 12px;
+    margin-top: 60px;
 }
 .crown {
     width:30px
@@ -290,5 +301,477 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
+}
+.main {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUYOqMOj6P38DTZ_e7yj54HlAlq8fzy2TJdao8xX18g&s=10);
+  grid-area: c3;
+  color: rgb(204, 204, 204);
+  padding: 40px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center; 
+}
+.h {
+    font-size: 15px;
+}
+.btttu h3 {
+    margin-top: 15px;
+}
+.stat {
+    grid-area: c4;
+    background-color: #0b122c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.controller {
+    width:50px;
+    margin-left: 10px;
+}
+.stat h1 {
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+.stat h1 b {
+    color:grey;
+    font-weight: normal;
+    font-size: 15px;
+}
+.stat2 {
+    grid-area: c5;
+    background-color: #0b122c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.people {
+    width:50px;
+    margin-left: 10px;
+}
+.stat2 h1 {
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+.stat2 h1 b {
+    color:grey;
+    font-weight: normal;
+    font-size: 15px;
+}
+.stat3 {
+    grid-area: c6;
+    background-color: #0b122c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.star {
+    width:50px;
+    margin-left: 10px;
+}
+.stat3 h1 {
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+.stat3 h1 b {
+    color:grey;
+    font-weight: normal;
+    font-size: 15px;
+}
+.stat4 {
+    grid-area: c7;
+    background-color: #0b122c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.lightning {
+    width:50px;
+    margin-left: 10px;
+}
+.stat4 h1 {
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+.stat4 h1 b {
+    color:grey;
+    font-weight: normal;
+    font-size: 15px;
+}
+.stat5 {
+    grid-area: c8;
+    background-color: #0b122c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.visit {
+    width:50px;
+    margin-left: 10px;
+}
+.stat5 h1 {
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+.stat5 h1 b {
+    color:grey;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.sideparent2 {
+    grid-area: c9;
+    background: linear-gradient(90deg, #321a7c 0%, #171646 45%, #0b1125 100%);
+    border: 1px solid #432b9b; 
+    border-radius: 10px;
+}
+.sideh {
+    font-size: x-large;
+    color: rgb(204, 204, 204);
+    margin-left: 10px;
+}
+.search1 {
+    width:215px;
+    margin-left:10px
+}
+.oe1 {
+    margin-left: 100px;
+}
+.bt1 {
+    margin-left:10px;
+    width:220px;
     margin-top: 10px;
+}
+.bt1 h3 {
+    margin-top: 15px;
+}
+.or {
+    color:#64748b;
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.line1 {
+    background-color: #64748b;
+    height:1px;
+    width: 95px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.first {
+    margin-left: 10px;
+}
+.continue {
+    width:220px;
+    height:50px;
+    background-color:#0b122c;
+    border-radius: 5px;
+    margin-left:10px;
+    color: rgb(205, 205, 205);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.continuet {
+    display:inline-block
+}
+.g {
+    margin-left: 10px;
+}
+.gameslist {
+    grid-column: 2 / 7;
+    grid-row: 8 / 13;
+    background-color: #0b122c;
+    border-radius: 5px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns:200px 200px 200px 200px ; 
+    grid-template-rows: 68px 68px 68px 68px;
+    grid-template-areas: 
+    "c  .   .   .   ."
+    "c1  c3  c3  c3  ."
+    "c2  c3  c3  c3  ."
+    "c  c3  c3  c3   ."
+    "c  c3  c3  c3   ."
+    ;
+    gap: 10px;
+}
+.releases {
+    margin: 15px;
+    color:white;
+    margin-bottom: 7px;
+}
+
+.Games8 {
+    grid-area: c1;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 15px;
+}
+.Games8 img {
+    border: #2b2b2b 1px solid;
+    width: 200px;
+    height: 90px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: none;
+}
+.infoofgame {
+    border:#2b2b2b 1px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#141b3c;
+    grid-column: 1/2 ;
+    grid-row: 3/4;
+    margin-left: 15px;
+    width:200px;
+    border-top: none;
+}
+.name {
+    color:white;
+    margin: 0;
+    font-size: 15px;
+}
+.textofstatus {
+    background-color: #191c2f;
+    display: inline-block;
+    color: #64748b;
+    margin: 0;
+    font-size: 10px;
+}
+.dotofstatus {
+    display: inline-block;
+    color: #64748b;
+    margin: 0;
+    font-size: 10px;
+}
+.hey {
+    background-color: none;
+    color:White;
+    font-size: 15px;
+}
+.g1 {
+    grid-column: 2/3 ;
+}
+.g2 {
+    grid-column:2/3;
+}
+.g3 {
+    grid-column:3/4;
+}
+.g4 {
+    grid-column: 3/4;
+}
+.g5 {
+    grid-row: 4/5;
+}
+.g6 {
+    grid-row: 5/6;
+}
+.g7 {
+    grid-row: 4/5;
+    grid-column:2/3;
+}
+.g8 {
+    grid-row: 5/6;
+    grid-column:2/3;
+}
+.g9 {
+    grid-row: 4/5;
+    grid-column:3/4;
+}
+.g10 {
+    grid-row: 5/6;
+    grid-column:3/4;
+}
+.g11 {
+    grid-column:4/5;
+}
+.g12 {
+    grid-column:4/5;
+}
+.proccent {
+    color:white;
+    background-color: rgb(96, 222, 96);
+    border-radius: 5px;
+}
+.over {
+    display: inline-block;
+    color: grey;
+    text-decoration:line-through grey;
+    margin: 0;
+    margin-left: 40px;
+}
+.real {
+    display: inline-block;
+    margin: 0;
+    color: rgb(96, 222, 96);
+}
+.g13 {
+    grid-column:4/5;
+    grid-row: 4/5;
+}
+.g14 {
+    grid-column:4/5;
+    grid-row: 5/6;
+}
+.Viewall {
+    color: purple;
+    position: absolute;
+    top: 750px;
+    left: 1100px;
+    display: inline-block;
+}
+.arrow {
+    width:30px;
+    position: absolute;
+    top: 763px;
+    left: 1160px;
+}
+.Popular {
+    background-color: #0b122c;
+    grid-area: c11;
+}
+.mine {
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.num {
+    color: white;
+    margin-left:20px ;
+    display: inline-block;
+}
+.parentof {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.r {
+    display: inline-block;
+    margin: 0;
+}
+.r1 {
+    position: relative;
+    top: -55px;
+    right:-150px;
+    margin-left: 1px;
+}
+.r2 {
+    position: relative;
+    top: -40px;
+    right:-75px;
+}
+
+.rr {
+    font-size: 9px;
+}
+.players {
+    color:#64748b;
+    font-size: 10px;
+    position: relative;
+    top: -50px;
+    left: 150px;
+    margin-left: 1px;
+}
+.parentoft {
+    position: absolute;
+    top: 660px;
+}
+.parentoft2 {
+    position: absolute;
+    top: 740px;
+}
+.io {
+    margin-bottom: 0;
+}
+.rrr {
+   margin-left:30px;
+}
+.rrrr {
+    margin-left:10px;
+}
+.parentoft3 {
+    position: absolute;
+    top: 810px;
+}
+.num2 {
+    color: white;
+    margin-left:20px ;
+    display: inline-block;
+    position: relative;
+    top:-30px;
+}
+.r5 {
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+.rrrrr {
+    position: relative;
+    top: 31px;
+    left: 115px;
+}
+.p2 {
+    position: relative;
+    top: 20px;
+    left:155px
+}
+.footer {
+    grid-area: c12;
+    background-color: #0b122c;
+    width:1536px;
+    height:68px;
+}
+.hub2 {
+    margin-left: 0;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.logocon {
+    position: relative;
+    top: 15px;
+    left:45px
+}
+.about {
+    display: inline-block;
+    color: grey;
+    position: absolute;
+    top: 950px;
+    right:550px
+}
+.Discord {
+    width:40px;
+    position: absolute;
+    top:950px;
+    right:300px
+}
+.Twitter {
+    width:40px;
+    position: absolute;
+    top:950px;
+    right:250px
+}
+.Youtube {
+    width:40px;
+    position: absolute;
+    top:950px;
+    right:200px
+}
+.Instagram {
+    width:40px;
+    position: absolute;
+    top:950px;
+    right:150px
 }
