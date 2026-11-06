@@ -1,0 +1,73 @@
+body {
+    height:100vh;
+}
+.TheMain {
+    width:800px;
+    height:1000px;
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px; 
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    "c1  c1  c1  c1"
+    "c2  c3  c3  c4"
+    "c2  c3  c3  c4"
+    "c2  c5  c6  c4"
+    "c2  c7  c8  c4"
+    "c9  c9  c9  c9"
+    "c10 c11 c12 c13"
+    "c14 c14 c15 c15"
+    "c14 c14 c15 c15"
+    "c16 c16 c16 c16"
+    ;
+}
+.child {
+    border: 3px solid black;
+}
+.child1 {
+    grid-area: c1;
+}
+.child2 {
+    grid-area: c2;
+}
+.child3 {
+    grid-area: c3;
+}
+.child4 {
+    grid-area: c4;
+}
+.child5 {
+    grid-area: c5;
+}
+.child6 {
+    grid-area: c6;
+}
+.child7 {
+    grid-area: c7;
+}
+.child8 {
+    grid-area:c8
+}
+.child9 {
+    grid-area: c9;
+}
+.child10 {
+    grid-area: c10;
+}
+.child11 {
+    grid-area: c11;
+}
+.child12 {
+    grid-area: c12;
+}
+.child13 {
+    grid-area: c13;
+}
+.child14 {
+    grid-area:c14;
+}
+.child15 {
+    grid-area: c15;
+}
+.child16 {
+    grid-area: c16;
+}

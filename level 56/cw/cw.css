@@ -1,0 +1,45 @@
+.cube {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    border: white 1px solid;
+}
+.cube:hover {
+    transform: scale(1.5);
+    transform: rotate(45deg);
+}
+.cube1 {
+    transition: 2s;
+}
+.cube1:hover {
+    transform: translate(50px);
+}
+.cube2 {
+    transition: 1s;
+}
+.cube2:hover {
+    transform-origin:bottom left;
+    transform: rotate(90deg);
+}
+.cube3 {
+    transition: 1s;
+}
+.cube3:hover {
+    transform: scale(1.5);
+    transition-delay: 1s;
+}
+.cube4 {
+    transition: 2s;
+}
+.cube4:hover {
+    transform: translate(100px);
+    transform: rotate(90deg);
+}
+.cube5 {
+    transition: 1s;
+}
+.cube5:hover {
+    transform-origin: top right;
+    transform: rotate(45deg);
+}

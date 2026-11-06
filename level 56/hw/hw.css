@@ -1,0 +1,52 @@
+.Hee_Hee {
+    width:200px;
+    height:100px;
+    background-color: black;
+    border: white solid 3px;
+}
+.Hee1 {
+    transition: 2s;
+}
+.Hee1:hover {
+    transform: scale(1.5) translate(50px) rotate(30deg);
+}
+.Hee_Hee2 {
+    width:100px;
+    height:100px;
+    background-color: black;
+    border: white solid 3px;
+    transition: 1.5s;
+}
+
+.Hee_Hee2:hover {
+    transform-origin: bottom center;
+    transform: rotate(45deg);
+}
+.Hee2 {
+    transition: 2s;
+    transition-delay: 0.5s;
+}
+.Hee2:hover {
+    transform: translate(100px , -50px) scale(1.3);
+}
+.Hee3 {
+    transition: 2s;
+}
+.Hee3:hover {
+    transform-origin: center;
+    transform: rotate(180deg) scale(1.2);
+}
+.Hee4 {
+    transition: 2s;
+}
+.Hee4:hover {
+    transform-origin: top left;
+    transform: rotate(90deg) translate(50px);
+}
+.Hee5 {
+    transition: 1s;
+    transition-delay: 1s;
+}
+.Hee5:hover {
+    transform: scale(1.5) translate(0px, -100px);
+}
